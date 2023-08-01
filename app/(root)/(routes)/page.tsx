@@ -1,9 +1,9 @@
-import { UserButton } from "@clerk/nextjs";
+import Search_Input from "@/components/Search_Input";
 
 const page = () => {
   return (
-    <div>
-      <UserButton afterSignOutUrl="/" />
+    <div className="h-full p-4 space-y-2">
+      <Search_Input />
     </div>
   );
 };
