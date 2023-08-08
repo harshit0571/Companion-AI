@@ -33,7 +33,7 @@ const Navbar = () => {
         </Button>
         <ModeToggle />
 
-        <UserButton />
+        <UserButton afterSignOutUrl="/sign-up" />
       </div>
     </div>
   );
